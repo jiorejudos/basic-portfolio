@@ -127,14 +127,22 @@ footer {
     visibility: hidden;
   }
   .main h2 {
-  font-size: 38px;
+  font-size: 48px;
   padding: 0 56px;
 }
 .main p {
-  font-size: 14px;
+  font-size: 18px;
   padding: 0 56px;
 }
 .main-container img {
-  width: inherit;
+  width: 100%;
   opacity: 0.25;
+}
+.topnav h1 {
+  display: none;
+  flex-wrap: wrap;
+}
+.main h2 {
+  margin-top: 5rem;
+}
 }
