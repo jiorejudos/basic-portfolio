@@ -126,6 +126,10 @@ footer {
   footer p:first-child {
     visibility: hidden;
   }
+  footer p:nth-child(2) {
+    padding-right: 5rem;
+    margin: -15px;
+  }
   .main h2 {
   font-size: 48px;
   padding: 0 56px;
